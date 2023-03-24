@@ -1,0 +1,80 @@
+
+$font-main: "Sora";
+$font-secondary: "Inter";
+
+$color-main: #991F6F;
+$color-secondary: #CD3498;
+
+$color-white: #fff;
+$color-white2: #EDEDED;
+$color-gray1: #1E1E1E;
+$color-gray2: #1A1A1A;
+$color-gray3: #333333;
+$color-gray4: #202020c5;
+
+$bg-main: #F3F5F9;
+$bg-secondary: #FDFEFF;
+
+
+@mixin dark-mode1 {
+  background-color: $color-gray1;
+  a, h1, h2, h3, h4, h5, h6, p {
+    color: $color-white2;
+  }
+}
+
+@mixin dark-mode2 {
+  background-color: $color-gray2;
+  a, h1, h2, h3, h4, h5, p {
+    color: $color-white2;
+  }
+}
+
+@mixin responsive-small-mobile {
+  @media screen and (min-width: 0px) and (max-width: 374px) {
+    @content;
+  }
+}
+
+@mixin responsive-mobile {
+  @media screen and (min-width: 375px) and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin responsive-tablet {
+  @media screen and (min-width: 601px) and (max-width: 1167px) {
+    @content;
+  }
+}
+
+@mixin responsive-desktop {
+  @media screen and (min-width: 1168px) {
+    @content;
+  }
+}
+
+
+@mixin spacing-section() {
+  padding: 96px 48px;
+  @include responsive-tablet {
+    padding: 48px 24px;
+  }
+}
+
+@mixin flexbox-between() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexbox-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin container() {
+    max-width: 1216px;
+    margin: 0 auto;
+}

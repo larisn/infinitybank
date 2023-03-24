@@ -1,0 +1,138 @@
+
+#s-innovation {
+    background-color: $bg-secondary;
+    .container {
+        @include container();
+        padding: 80px 32px 20px 32px;
+
+        @include responsive-desktop {
+            padding-left: 0;
+        }
+        h2 {
+            font: 600 2.39rem 'Sora';
+            text-align: center;
+            span {
+                color: $color-main;
+            }
+            color: $color-gray3;
+            line-height: 37px;
+            margin-top: 2.7rem;
+
+            @include responsive-desktop { 
+                width: 37%;
+                font-size: 2.9rem;
+            }
+        }
+
+        @include responsive-tablet {
+            padding-left: 40px;
+        }
+    }
+}
+
+.container-benefits {
+    .phone-card {
+        display: none;
+    }
+    .benefits {
+        padding-top: 7rem;
+        @include responsive-desktop {
+            padding-top: 0;
+        }
+        article {
+            padding-bottom: 6rem;
+            img {
+                width: 27px;
+                height: 25px;
+                &:hover {
+                    transform: scale(1.2);
+                    transition: .3s ease-in-out;
+                }
+
+                @include responsive-tablet {
+                    width: 29px;
+                    height: 29px;
+                }
+            }
+            h4 {
+                padding-top: 1.1rem;
+                font: 600 1.7rem 'Sora';
+                color: $color-gray3;
+
+                @include responsive-tablet {
+                    font-size: 1.8rem;
+                }
+
+                @include responsive-desktop {
+                    font-size: 2.1rem;
+                }
+            }
+            p {
+                padding-top: 0.8rem;
+                font: 400 1.4rem 'Inter';
+                line-height: 24px;
+                color: $color-gray4;
+
+                @include responsive-tablet {
+                    font-size: 1.55rem;
+                }
+
+                @include responsive-desktop {
+                    width: 249px;
+                    font-size: 1.4rem;
+                }
+            }
+            h5 {
+                padding-top: 0.8rem;
+                font: 300 1.3rem 'Inter';
+                color: $color-gray3;
+            }
+            h6 {
+                padding-top: 1rem;
+                font: 300 1.3rem 'Inter';
+                text-decoration: underline;
+                color: $color-secondary;
+                a {
+                    font-weight: 700;
+                    background: linear-gradient(210deg, $color-secondary 0%, $color-main 100%);
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                &:hover {
+                    text-decoration: none;
+                    filter: brightness(1.2);
+                    
+                }
+            }
+        }
+        
+        .padding-know-more {
+            padding-top: 34px;
+        }
+        .padding-know-more2 {
+            padding-top: 33.9px;
+        }
+        .padding-know-more3 {
+            padding-top: 10px;
+        }
+
+        @include responsive-desktop {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            row-gap: 40px;
+            column-gap: 70px;
+            
+        }
+    } 
+
+    @include responsive-desktop {
+        @include flexbox-center;
+        .phone-card {
+            display: block;
+            width: 600px;
+            margin-bottom: 10.9rem;
+        }
+    }
+}
+

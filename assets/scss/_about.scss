@@ -1,0 +1,163 @@
+
+#s-about {
+    .container {
+        @include container();
+    }
+    padding: 65px 32px;
+    .phone-card2 {
+        display: none;
+    }
+
+    @include responsive-desktop {
+        padding: 130px 0 120px 0;
+        .phone-card2 {
+            margin: 0;
+            display: block;
+            width: 100rem;
+            position: relative;
+            left: 150px;
+            bottom: 50px;
+        }
+    }
+
+    h2 {
+        font: 600 2.7rem 'Sora';
+        color: $color-gray3;
+        text-align: center;
+        line-height: 37px;
+
+        @include responsive-desktop {
+            text-align: left;
+            font-size: 2.9rem;
+        }
+    }
+    span {
+        color: $color-main;
+    }
+    .p-about {
+        font: 400 1.35rem 'Inter';
+        margin-top: 2rem;
+        line-height: 23px;
+        color: $color-gray4;
+        margin-top: 2rem;
+
+        @include responsive-tablet {
+            font-size: 1.5rem;
+        }
+
+        @include responsive-desktop {
+            font-size: 1.55rem;
+            line-height: 28px;
+            width: 50%;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.container-items-about { 
+    img {
+        display: none;
+        @include responsive-desktop {
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+    }
+    h3 {
+        font: 500 1.8rem 'Sora';
+        color: $color-gray3;
+
+        @include responsive-tablet {
+            font-size: 2rem;
+        }
+
+        @include responsive-desktop {
+            font-size: 1.8rem;
+        }
+    }
+    p {
+        margin: 1.1rem 0 5rem 0;
+        font: 400 1.4rem 'Inter';
+        color: $color-gray4;
+        line-height: 28px;
+        &:last-child {
+            margin-bottom: 4rem;
+        }
+
+        @include responsive-tablet {
+            font-size: 1.5rem;
+        }
+
+        @include responsive-desktop {
+            width: 120%
+        }
+    }
+
+    @include responsive-desktop {
+        display: flex;
+        gap: 60px;
+        .download-app-buttons {
+            display: flex;
+        }
+    }
+}
+
+.item1 {
+    border-bottom: 1px solid #991f6e1a;
+    margin-bottom: 6rem;
+    &:first-child {
+        margin-top: 8rem;
+    }
+    &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+
+    @include responsive-desktop {
+        &:first-child {
+            margin-top: 8rem;
+        }
+    }
+}
+
+.about-items {
+    @include responsive-desktop {
+        margin-top: 0;
+    }
+}
+
+.about-item {
+    display: flex;
+    
+    @include responsive-desktop{
+        gap: 30px;
+    }
+}
+
+.about-item2 {
+    @include responsive-desktop {
+        gap: 30px;
+    }
+}
+
+.about-icon {
+    width: 56px;
+    background-color: $color-white;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 25px #991f6e27;
+    &:hover {
+        transition: width 0.4s;
+        width: 64px;
+        box-shadow: 0px 8px 25px #991f6e49;
+    }
+}
+
+.cifrao {
+    padding: 16px;
+    width: 100px;
+    &:hover {
+        transition: width 0.4s;
+        width: 113px;
+    }
+}

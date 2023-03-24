@@ -1,0 +1,139 @@
+
+#s-download-app {
+    .container {
+        @include container();
+        @include responsive-desktop {
+            @include flexbox-center;
+        }
+    }
+    padding: 65px 32px;
+
+    @include responsive-desktop {
+        padding: 150px 0 180px 0;
+    }
+
+    h2 {
+        font: 500 2.35rem 'Sora';
+        line-height: 35px;
+        color: $color-gray3;
+        font-weight: 600;
+        span {
+            color: $color-main;
+        }
+        span:nth-child(2) {
+            color: $color-gray3;
+            font-weight: 300;
+        }
+        @include responsive-tablet {
+            width: 600px;
+            font-size: 2.8rem;
+        }
+        @include responsive-desktop {
+            font-size: 3.5rem;
+            line-height: 55px;
+            width: 60%;
+            margin-top: 2.9rem;
+        }
+    }
+    h3 {
+        margin: 2rem 0 4.5rem 0;
+        font: 400 1.3rem 'Inter';
+        line-height: 23px;
+        color: $color-gray4;
+        @include responsive-tablet {
+            font-size: 1.6rem; 
+            margin-top: 3rem
+        }
+        @include responsive-desktop {
+            font-size: 1.7rem;
+            width: 60%;
+            line-height: 30px;
+        }
+    }
+    button {
+       .button-download-app {
+            @include flexbox-center;
+        }
+        background: linear-gradient(210deg, $color-secondary 0%, $color-main 100%);
+        padding: 1rem 0 1.2rem 0;
+        margin-top: 2rem;
+        width: 100%;
+        border-radius: 7px;
+        box-shadow: 2px 2px 6px #0000003f;
+        cursor: pointer;
+        img {
+            width: 28px;
+            margin-right: 2rem;
+        }
+        p {
+            font: 300 1.4rem 'Inter';
+            color: $color-white;
+        }
+        p:nth-child(2){
+            margin-top: 4px;
+            font-weight: 600;
+        }
+        
+        @include responsive-tablet {
+            width: 480px;
+        }
+        @include responsive-desktop {
+            width: 23%;
+            margin-top: 1rem;
+            padding: 1.3rem 0;
+            &:hover {
+                background: linear-gradient(210deg, #be308d 0%, #7c195a 100%);
+            }
+        }
+        &:hover {
+            img {
+                transform: scale(1.1);
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+    
+    @include responsive-desktop {
+        button:nth-child(2) {
+            margin-left: 2rem;
+        }
+    }
+
+    @include responsive-desktop {
+        .container-download-app-logo {
+            width: 570px;
+            height: 380px;
+            border-radius: 55px;
+            position: relative;
+            right: 30px;
+            top: 30px;
+            background: linear-gradient(200deg, #57123f 0%, #a12476 100%)
+        }
+        .download-app-logo-infinity {
+            display: block;
+            margin: 5rem 0 0 4.57rem;
+            animation: imgLogo 4s ease infinite;
+        }
+    }
+}
+
+.download-app-logo-infinity {
+    display: none;
+}
+
+@keyframes imgLogo {
+    0% {
+        height: 280px;
+        width: 280px;
+    }
+
+    50% {
+        height: 300px;
+        width: 300px;
+    }
+
+    100% {
+        height: 280px;
+        width: 280px;
+    }
+}

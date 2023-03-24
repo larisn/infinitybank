@@ -1,0 +1,225 @@
+
+#s-featured {
+    .container {
+        padding: 64px 32px;
+        @include container();
+
+        @include responsive-desktop {
+            padding: 18rem 0 17rem 0;
+        }
+    }
+    h1 {
+        font: 400 3.6rem 'Sora';
+        margin: 0 34px 20px 0;
+        color: $color-gray3;
+        span {
+            font-weight: 600;
+            color: $color-main;
+        }
+        line-height: 55px;
+
+        @include responsive-tablet {
+            font-size: 4rem;
+        }
+
+        @include responsive-desktop {
+            font-size: 5rem;
+            width: 600px;
+            line-height: 70px;
+        }
+    }
+    h3 {
+        font: 400 1.8rem 'Sora';
+        margin: 3rem 0 8rem 0;
+        color: $color-gray3;
+        line-height: 25px;
+        
+        @include responsive-tablet {
+            margin-top: 3rem;
+            font-size: 1.95rem;
+        }
+    }
+
+    @include responsive-desktop {
+        .main-img {
+            display: block;
+            position: absolute;
+            bottom: 70px;
+            right: 100px;
+            width: 750px;
+            height: 500px;
+            margin-bottom: 11rem;
+        }
+    }
+}
+
+.featured-main-page {
+    @include responsive-desktop {
+        display: flex;
+        align-items: center;
+        gap: 25rem;
+    }
+}
+
+.featured-open-account {
+    button {
+        @include flexbox-center;
+        width: 100%;
+        padding: 1.6rem 1.2rem 1.6rem 0;
+        border-radius: 7px;
+        box-shadow: 2px 2px 6px #0000003f;
+        background: linear-gradient(210deg, $color-secondary 0%, $color-main 100%);
+        h4 {
+            font: 400 1.7rem 'Sora';
+            color: $color-white;
+            width: 170px;
+        }
+
+        .arrow-wrapper {
+            div {
+                margin: 0 0 1px 3px;
+                position: relative;
+                transition: 0.2s;
+                &::before {
+                    content: "";
+                    box-sizing: border-box;
+                    position: absolute;
+                    border: solid $color-white;
+                    border-width: 0 2px 2px 0;
+                    display: inline-block;
+                    top: -3px;
+                    right: 3px;
+                    transition: 0.2s;
+                    padding: 3px;
+                    transform: rotate(-45deg);       
+                }
+            }
+            
+            @include responsive-desktop {
+                margin-left: .3rem;
+            }
+        }
+
+        &:hover .arrow {
+            height: 2px;
+            background: $color-white;
+            width: 12px;
+            transition: .2s ease-in-out;
+            margin-bottom: 0;
+        }
+
+        &:hover .arrow::before {
+            transition: .2s ease-in-out;
+            right: 0;
+        }
+
+        @include responsive-tablet {
+            width: 350px;
+        }
+
+        @include responsive-desktop {
+            width: 250px;
+            cursor: pointer;
+        }
+        &:hover {
+            img {
+                transform: translateX(5px);
+                transition: all 0.4s ease-in;
+             
+            }
+            
+            background: linear-gradient(210deg, #be308d 0%, #7c195a 100%);
+        }
+    }
+}
+
+.featured-download-app {
+    h4 {
+        font: 400 1.6rem 'Inter';
+        margin-top: 9rem;
+        text-align: center;
+        color: $color-gray3;
+
+        @include responsive-tablet {
+            margin-top: 12rem;
+        }
+
+        @include responsive-desktop {
+            margin-top: 0;
+            
+        }
+    }
+    img {
+        width: 30px;
+        height: 32px;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
+        }
+        @include responsive-tablet {
+            width: 33px;
+            height: 35px;
+        }
+
+        @include responsive-desktop {
+            transform: translateY(-2px);
+        }
+    }
+
+    @include responsive-desktop {
+        display: flex;
+        align-items: center;
+        margin-top: 12rem;
+    }
+}
+
+@keyframes wind {
+    0% {
+        transform: translatex(0);
+    }
+    50% {
+        transform: translatex(-30px);
+    }
+    100% {
+        transform: translatex(0);
+    }
+}
+
+.container-download-app-img {
+    @include flexbox-center;
+    gap: 30px;
+    margin-top: 20px;
+
+    @include responsive-desktop {
+        margin: 0 20px;
+    }
+}
+
+.main-img {
+    display: none;
+}
+
+.flor {
+    position: absolute;
+    margin-top: -28px;
+    left: 30px;
+    width: 35px;
+    transform: translateX(0);
+    animation: wind 5s ease-in-out infinite;
+
+    @include responsive-tablet {
+        position: absolute;
+        margin-top: -86px;
+        left: 70px;
+        width: 57px;
+    }
+    
+    @include responsive-desktop {
+        position: absolute;
+        left: 158rem;
+        bottom: 18rem;
+        width: 70px;
+    }
+}
+

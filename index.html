@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Larissa Santos">
+    <meta name="description" content="InfinityBank, Um banco digital para mulheres. Empodere sua vida financeira com apenas um clique!">
+    <meta name="keywords" content="sites, web, desenvolvimento, frontend, larissa santos, ui designer, programadora, front-end, website, infinity, infinitybank, bank, mulheres, site institucional, mulher">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#991F6F">
+    <meta name="copyright" content="Larissa Santos 2023">
+    <meta http-equiv="content-language" content="pt-br">
+    <meta property="og:image" content="https://larisn.github.io/assets/img/Preview.png">
+    <meta property="og:title" content="TeslaBank">
+    <meta property="og:description" content="TeslaBank">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Sora:wght@400;500;600&display=swap" >
+    <link rel="shortcut icon" href="assets/img/Logo Infinity Bank.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/scss/../scss/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>InfinityBank - O banco digital especial para mulheres</title> 
+</head>
+<body>
+    <header>
+        <nav class="navbar scrollReveal400">
+            <div class="logo">
+                <a href="#" rel="noopener">
+                    <img 
+                    src="assets/img/Logo Infinity Bank.svg" 
+                    alt="Logo InfinityBank"
+                    >
+                </a>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="#s-about" rel="noopener">Conta digital 
+                        <img 
+                        src="assets/img/icons/Setinha.svg" 
+                        alt="Seta para baixo"
+                        >
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#s-innovation" rel="noopener">Vantagens 
+                        <img 
+                        src="assets/img/icons/Setinha.svg" 
+                        alt="Seta para baixo"
+                        >
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#s-blog" rel="noopener">Blog 
+                        <img 
+                        src="assets/img/icons/Setinha.svg" 
+                        alt="Seta para baixo"
+                        >
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#s-download-app" rel="noopener">App
+                        <img 
+                        src="assets/img/icons/Setinha.svg" 
+                        alt="Seta para baixo"
+                        >
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#s-doubt" rel="noopener">FAQ 
+                        <img 
+                        src="assets/img/icons/Setinha.svg" 
+                        alt="Seta para baixo"
+                        >
+                    </a>
+                </li>
+            </ul>
+
+            <div id="toggle-switch">
+                <label id="label">
+                  <input type="checkbox" class="checkbox">
+                  <span></span>
+                </label>
+            </div>  
+
+            <div class="navbar-item2">
+                <div class="container-navbar-item2">
+                    <button>Login
+                        <img 
+                        src="assets/img/icons/Icon login.svg" 
+                        alt="Ícone login user"
+                        >
+                    </button>
+
+                    <p>Pedir meu cartão</p>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="mobile-navbar">
+            <div class="container-menu-mobile">
+                <div class="logo">
+                    <a href="#" rel="noopener">
+                        <img 
+                        src="assets/img/Logo Infinity Bank.svg" 
+                        alt="Logo InfinityBank"
+                        >
+                    </a>
+                </div>
+
+                <div id="menu-mobile">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="container-active-nav-mobile">
+                <ul id="menu-mobile-options">
+                    <li>
+                        <a href="#s-blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#s-about">Abra sua conta</a>
+                    </li>
+                    <li>
+                        <a href="#s-innovation">Vantagens</a>
+                    </li>
+                    <li>
+                        <a href="#s-download-app">App</a>
+                    </li>
+                    <li>
+                        <a href="#s-doubt">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="s-featured">
+            <div class="container">
+                <div class="featured-main-page">
+                    <div class="container-content-featured scrollReveal200">
+                        <h1>
+                            <span>InfinityBank</span> <br>
+                            Um banco digital para mulheres
+                        </h1>
+                        <h3>Empodere sua vida financeira com apenas um clique!</h3>
+                        <div class="featured-open-account">
+                            <button id="button-open-account">
+                                <h4>Abrir uma conta</h4>
+                                <div class="arrow-wrapper">
+                                    <div class="arrow"></div>
+                                </div>
+                            </button>
+
+                            <div class="featured-download-app">
+                                <h4>Baixe o novo app InfinityBank</h4>
+                                <div class="container-download-app-img">
+                                    <img 
+                                    src="assets/img/icons/Apple.svg" 
+                                    alt="Logo apple"
+                                    >
+
+                                    <img 
+                                    src="assets/img/icons/Playstore.svg" 
+                                    alt="Logo google play"
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img 
+                        class="flor"
+                        src="assets/img/Flor.svg" 
+                        alt="Flor"
+                        >
+                        <img 
+                        class="main-img" 
+                        src="assets/img/Imagem principal.svg" 
+                        alt="Cartão principal"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="s-innovation">
+            <div class="container">
+                <h2>Quais são as vantagens de ter uma conta 
+                    <span>Infinity</span>?
+                </h2>
+
+                <div class="container-benefits scrollReveal200">
+                    <img 
+                    class="phone-card"
+                    src="assets/img/Phone1.svg" 
+                    alt="Celular"
+                    >
+                    <div class="benefits scrollReveal300">
+                        <article>
+                            <div>
+                                <img 
+                                src="assets/img/icons/Cartao.svg" 
+                                alt="Cartão icon"
+                                >
+                            </div>
+                            <h4>InfinityCard</h4>
+                            <p>Seu cartão de crédito descomplicado com altas chances de aprovação!</p>
+                            <h5>* sujeito à análise de crédito</h5>
+                            <h6>
+                                <a href="#" rel="noopener">Saiba mais</a>
+                            </h6>
+                        </article>
+
+                        <article>
+                            <div>
+                                <img 
+                                src="assets/img/icons/Coracao.svg" 
+                                alt="Coração icon"
+                                >
+                            </div>
+                            <h4>Conta 100% digital</h4>
+                            <p>Uma conta corrente ou poupança com serviços que facilitam sua vida totalmente digital!</p>
+                            <h6 class="padding-know-more3">
+                                <a href="#" rel="noopener">Saiba mais</a>
+                            </h6>
+                        </article>
+
+                        <article>
+                            <div>
+                                <img 
+                                src="assets/img/icons/Pix.svg" 
+                                alt="Pix icon"
+                                >
+                            </div>
+                            <h4>Pix</h4>
+                            <p>Um jeito muito mais fácil e rápido para realizar seus pagamentos!</p>
+                            <h6 class="padding-know-more">
+                                <a href="#" rel="noopener">Saiba mais</a>
+                            </h6>
+                        </article>
+
+                        <article>
+                            <div>
+                                <img 
+                                src="assets/img/icons/Carrinho.svg" 
+                                alt="Carrinho icon"
+                                >
+                            </div>
+                            <h4>Cartão virtual</h4>
+                            <p>Muito mais segurança nas suas compras online!</p>
+                            <h6 class="padding-know-more"> 
+                                <a href="#" rel="noopener">Saiba mais</a>
+                            </h6>
+                        </article>
+
+                        <article>
+                            <div>
+                                <img 
+                                src="assets/img/icons/Credito.svg" 
+                                alt="Cifrão icon"
+                                >
+                            </div>
+                            <h4>Crédito pessoal</h4>
+                            <p>Direto pelo app, sem precisar falar com ninguém</p>
+                            <h5>* sujeito à análise de crédito</h5>
+                            <h6 class="padding-know-more3 ">
+                                <a href="#" rel="noopener">Saiba mais</a>
+                            </h6>
+                        </article>
+
+                        <article>
+                            <div>
+                                <img 
+                                src="assets/img/icons/Porcentagem.svg" 
+                                alt="Porcentagem icon"
+                                >
+                            </div>
+                            <h4>Livre de taxas</h4>
+                            <p>Não cobramos taxas adicionais em nenhum dos nossos serviços!</p>
+                            <h6 class="padding-know-more2">
+                                <a href="#" rel="noopener">Saiba mais</a>
+                            </h6>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s-about">
+            <div class="container">
+                <h2>Abra sua conta 
+                    <span>gratuitamente</span>!
+                </h2>
+                <p class="p-about">Abra sua conta em poucos minutos, sem taxas ou burocracias.
+                Pix e TEDs para todos os bancos sem nenhum custo.</p>
+
+                <div class="container-items-about scrollReveal200">
+                    <div class="about-items">
+                        <div class="item1 about-item">
+                            <div>
+                                <img
+                                class="about-icon"
+                                src="assets/img/icons/Cashback.svg"
+                                alt="Cifrão icon"
+                                >
+                            </div>
+
+                            <div>
+                                <h3>O que você gasta vira cashback!</h3>
+                                <p>A cada compra feita com seu cartão, você pode ter parte do seu dinheiro de volta!</p>
+                            </div>
+                        </div>
+
+                        <div class="item1 about-item about-item2">
+                            <div>
+                                <img
+                                class="about-icon cifrao"
+                                src="assets/img/icons/Cifrao.svg"
+                                alt="Cifrão icon"
+                                >
+                            </div>
+
+                            <div>
+                                <h3>Várias formas de pagamento</h3>
+                                <p>Com a gente você pode realizar seus pagamentos via Pix, transferência, boleto, cartão de crédito. Também temos a opção de parcelamento de pix e boleto!</p>
+                            </div>
+                        </div>
+
+                        <div class="item1 about-item">
+                            <div>
+                                <img
+                                class="about-icon"
+                                src="assets/img/icons/Relogio.svg"
+                                alt="Relógio icon"
+                                >
+                            </div>
+
+                            <div class="item1">
+                                <h3>Atendimento 24h</h3>
+                                <p>Se precisar de ajuda estaremos sempre disponíveis, basta contatar nosso suporte.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img
+                        class="phone-card2"
+                        src="assets/img/Phone2.svg"
+                        alt="Celular 2"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="s-blog">
+            <div class="container">
+                <h2>Acesse o blog do 
+                    <span>InfinityBank</span> 
+                    e acompanhe as novidades
+                </h2>
+                
+                <div class="container-blog-items">
+                    <article class="scrollReveal300">
+                        <img
+                        src="assets/img/Cartao2.svg" 
+                        alt="Cartão de crédito"
+                        >
+                        <h3>Finanças</h3>
+                        <p>Cartão de crédito: Pagamento mínimo ou parcelado? <b>Veja a melhor opção</b></p>
+                    </article>
+
+                    <article class="scrollReveal400">
+                        <img 
+                        src="assets/img/Phone3.svg" 
+                        alt="Celular"
+                        >
+                        <h3>Meu Infinity</h3>
+                        <p>Como funciona nosso Pix e boleto parcelados? <b>Saiba mais sobre essa nova metodologia de pagamento</b></p>
+                    </article>
+
+                    <article class="scrollReveal500"> 
+                        <img 
+                        src="assets/img/Cofrinho.svg" 
+                        alt="Cofrinho de dinheiro"
+                        >
+                        <h3>Economizando grana</h3>
+                        <p>Conheça as <b>3 maneiras</b> mais eficientes para economizar com a sua conta poupança <b>Infinity</b></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <section id="s-download-app">
+            <div class="container">
+                <div class="download-app-content">
+                    <h2>
+                        Apoiando as <span>mulheres</span> em
+                        cada passo: 
+                        <span>nosso banco digital só para elas.</span>
+                    </h2>
+                    <h3 class="scrollReveal200">O novo app do InfinityBank já está disponível na AppStore e Playstore. Baixe agora e aproveite as vantagens!</h3>
+
+                    <div class="download-app-buttons scrollReveal400">
+                        <button>
+                            <div class="button-download-app">
+                                <img
+                                src="assets/img/icons/Apple2.svg"
+                                alt="Logo apple"
+                                >
+                                <div>
+                                    <p>Baixe o app</p>
+                                    <p>Apple Store</p>
+                                </div>
+                            </div>
+                        </button>
+                        <button>
+                            <div class="button-download-app">
+                                <img
+                                src="assets/img/icons/Playstore2.svg"
+                                alt="Logo Playstore"
+                                >
+                                <div>
+                                    <p>Baixe o app</p>
+                                    <p>Google Play</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container-download-app-logo scrollReveal600">
+                    <img 
+                    class="download-app-logo-infinity"
+                    src="assets/img/Logo2 Infinity Bank.svg" 
+                    alt="Logo InfinityBank"
+                    style="width: 280px; height: 280px;"
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section id="s-doubt">
+            <div class="container">
+                <h2>Perguntas Frequentes</h2>
+                <h3>Em caso de dúvidas, sinta-se à vontade para contatar um de nossos especialistas.</h3>
+                <div class="container-img-doubt">
+                    <img
+                    class="img-doubt"
+                    src="assets/img/Help.svg"
+                    alt="Ilustração de mulher falando"
+                    >
+                </div>
+
+                <div class="container-item-doubt">
+                    <div class="container-doubt scrollReveal300">
+                        <article>
+                            <div class="accordion">
+                                <div class="container-icon">
+                                    <img
+                                    class="interrogation"
+                                    src="assets/img/icons/Duvidas.svg"
+                                    alt="Interrogação icon"
+                                    >
+
+                                    <span class="question">
+                                        <h4>Se eu abrir a conta terei um cartão de crédito aprovado?</h4>
+                                    </span>
+                                </div>
+
+                                <div class="container-img">
+                                    <img 
+                                    class="accordion-img"
+                                    src="assets/img/icons/Plus.svg" 
+                                    alt="Plus icon"
+                                    width="24px"
+                                    height="24px"
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="answer">
+                                <p>
+                                    Abrir uma conta não garante sua aprovação, antes você passará pela nossa análise de crédito, mas você ainda pode ajudar a aumentar as suas chances! Enquanto utilizar nossos serviços, estará construindo um relacionamento com a gente, isso te dá mais chances de ser aprovado!
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="container-doubt scrollReveal400">
+                        <article class="doubt-item2">
+                            <div class="accordion accordion2">
+                                <div class="container-icon">
+                                    <img
+                                    class="interrogation"
+                                    src="assets/img/icons/Duvidas.svg"
+                                    alt="Interrogação icon"
+                                    >
+
+                                    <span class="question">
+                                        <h4>Quanto tempo leva a análise de crédito?</h4>
+                                    </span>
+                                </div>
+
+                                <div class="container-img">
+                                    <img 
+                                    class="accordion-img"
+                                    src="assets/img/icons/Plus.svg" 
+                                    alt="Plus icon"
+                                    width="24px"
+                                    height="24px"
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="answer">
+                                <p>
+                                    Nosso prazo de análise pode variar, mas geralmente leva em torno de 10 à 15 dias.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="container-doubt scrollReveal500">
+                        <article>
+                            <div class="accordion">
+                                <div class="container-icon">
+                                    <img
+                                    class="interrogation"
+                                    src="assets/img/icons/Duvidas.svg"
+                                    alt="Interrogação icon"
+                                    >
+
+                                    <span class="question">
+                                        <h4>Posso fazer saques com a minha conta?</h4>
+                                    </span>
+                                </div>
+
+                                <div class="container-img">
+                                    <img 
+                                    class="accordion-img"
+                                    src="assets/img/icons/Plus.svg" 
+                                    alt="Plus icon"
+                                    width="24px"
+                                    height="24px"
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="answer">
+                                <p>
+                                    Sim, mas como somos um banco 100% digital, contamos com empresas parceiras como o Banco24Horas para disponibilizar essa opção aos nossos clientes.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div>
+                <h2>Copyright © 2023 <span>InfinityBank</span>. Todos os direitos reservados.</h2>
+            </div>
+    
+            <div>
+                <h2>Powered by <span>larisn</span></h2>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/scrollReveal.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+</body>
+</html>

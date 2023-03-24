@@ -1,0 +1,91 @@
+
+#s-blog {
+    background-color: $bg-secondary;
+    .container {
+        @include container();
+    }
+    padding: 70px 32px;
+    @include responsive-desktop {
+        padding-bottom: 130px;
+    }
+    h2 {
+        font: 600 2rem 'Sora';
+        text-align: center;
+        color: $color-gray3;
+        span {
+            color: $color-main;
+        }
+
+        @include responsive-tablet {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 15rem;
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        @include responsive-desktop {
+            font-size: 3rem;
+            width: 40%;
+            margin-left: 30%;
+            margin-top: 2.7rem;
+        }
+    }
+    img {
+        width: 150px;
+        margin: 8rem 0 1.6rem 7rem;
+
+        @include responsive-tablet {
+            margin-left: 40%;
+            margin-bottom: 2.3rem;
+            width: 200px;
+        }
+
+        @include responsive-desktop {
+            margin-left: 30px;
+            width: 210px;
+            margin-top: 14rem;
+        }
+    }
+    h3 {
+        font: 500 1.3rem 'Inter';
+        color: $color-main;
+
+        @include responsive-tablet {
+            font-size: 1.5rem;
+            width: 70%;
+            margin-left: 20%;
+        }
+
+        @include responsive-desktop {
+            font-size: 1.4rem;
+            margin-top: 3.5rem;
+        }
+    }
+    p {
+        font: 400 1.35rem 'Inter';
+        color: $color-gray3;
+        padding-top: 5px;
+        line-height: 23px;
+
+        @include responsive-tablet {
+            padding-top: 9px;
+            font-size: 1.7rem;
+            width: 70%;
+            margin-left: 20%;
+        }
+
+        @include responsive-desktop {
+            font-size: 1.55rem;
+            line-height: 30px;
+        }
+    }
+}
+
+.container-blog-items {
+    @include responsive-desktop {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 12rem;
+    }
+}

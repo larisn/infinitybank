@@ -1,0 +1,193 @@
+@import "./variables", "./reset", "./menu", "./featured", "./about", "./innovation","./blog", "./download-app", "./doubt", "./footer";
+
+
+body {
+    height: 100%;
+    background:radial-gradient(ellipse at center, #F3F5F9 0%, #F3F5F9 50%, #991f6e2f 100%);
+}
+
+
+// dark mode
+
+#toggle-switch {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    @include responsive-mobile {
+        margin: 0 auto;
+        left: 90px;
+        top: 28px;
+    }
+    @include responsive-tablet {
+        margin: 0 auto;
+        left: 210px;
+        top: 30px;
+    }
+      
+    label {
+        position: absolute;
+        top: 2px;
+        width: 78%;
+        height: 30px;
+        border-radius: 25px;
+        cursor: pointer;
+        border: 3px solid $color-main;
+        
+    }
+    
+    span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 4px;
+            left: 4.5px;
+            width: 19px;
+            height: 17px;
+            border-radius: 50%;
+            background-color: $color-main;
+            transform: rotate(-0.45turn);
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+        }
+    }
+
+    input {
+        position: absolute;
+        display: none;
+        &:checked ~ span {
+            background-color: #222;
+            &::before {
+                -webkit-transform: translateX(20px);
+                -ms-transform: translateX(20px);
+                transform: translateX(23px);
+                box-shadow: inset 12px -4px 0px 0px $color-main;
+                background-color: #222;
+                left: 3px;
+            }
+        }
+    }
+}
+
+.dark header {
+    transition: .2s ease-in-out;
+    @include dark-mode1;
+    .navbar {
+        a {
+            font-weight: 400;
+        }
+    }
+    .navbar-item2 {
+        button {
+            transition: .2s ease-in-out;
+            background-color: #222;
+            color: $color-white2;
+            font-weight: 400;
+            &:hover {
+                transition: color .2s;
+                color: $color-main;
+            }
+        }
+    }
+}
+
+.dark #s-featured, .dark #s-about, .dark #-download-app {
+    @include dark-mode1;
+    transition: .2s ease-in-out;
+}
+.dark #s-innovation, .dark #s-blog, .dark #s-doubt {
+    transition: .2s ease-in-out;
+    @include dark-mode2;
+    .benefits {
+        h4 {
+            font-weight: 500;
+        }
+    }
+}
+
+.dark .lines-desktop {
+    transition: .2s ease-in-out;
+    opacity: 40%;
+    left: 40px;
+}
+
+.dark::-webkit-scrollbar-track {
+    transition: 3s ease-in-out;
+    background-color: $color-gray1;
+}
+
+.dark #menu-mobile {
+    div {
+        background-color: $color-white;
+    }
+}
+
+.dark .active #menu-mobile-options {
+    background-color: $color-gray1;
+    li {
+        color: $color-white;
+        font-weight: 400;
+        &:hover {
+            color: $color-main;
+        }
+    }
+    a {
+        color: $color-white;
+        font-weight: 300;
+        &:hover {
+            color: $color-main;
+        }
+    }
+}
+
+.dark #s-innovation {
+    .container {
+        h2 {
+            color: $color-white;
+        }
+    }
+}
+
+.dark #s-download-app {
+    h4 {
+        font-weight: 300;
+    }
+    h2 {
+        color: $color-white;
+        span:nth-child(2) {
+            color: $color-white;
+        }
+    }
+}
+
+.dark #s-blog {
+    h3 {
+        color: $color-secondary;
+    }
+    p {
+        font-weight: 300;
+    }
+}
+
+.dark footer {
+    background-color: $color-gray1;
+    div {
+        h2 {
+            color: $color-white;
+            font-weight: 300;
+        }
+    }
+}
+
+body.dark  {
+    background: none;
+    background-color: $color-gray1;
+    
+}
+
+
