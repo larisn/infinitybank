@@ -54,11 +54,7 @@
             height: 500px;
             margin-bottom: 11rem;
             @include responsive-small-desktop {
-                position: absolute;
-                width: 500px;
-                height: 500px;
-                right: -20px;
-                bottom: 30px;
+                display: none;
             }
         }
     }
@@ -236,7 +232,7 @@
         inset: 0;
         position: absolute;
         left: 104rem;
-        top: 51.3rem;
+        top: 81.5rem;
     }
 }
 

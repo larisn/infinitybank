@@ -127,8 +127,10 @@
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
             row-gap: 40px;
-            column-gap: 20px;
-            
+            column-gap: 80px;
+            @include responsive-small-desktop {
+                column-gap: 20px;
+            } 
         }
     } 
 
