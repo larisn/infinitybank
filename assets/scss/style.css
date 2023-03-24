@@ -847,6 +847,7 @@ header {
 }
 @media screen and (min-width: 1168px) and (min-width: 1168px) and (max-width: 1439px) {
   .container-benefits .benefits {
+    margin-top: 5rem;
     -moz-column-gap: 20px;
          column-gap: 20px;
   }
@@ -1129,7 +1130,7 @@ header {
 }
 @media screen and (min-width: 1168px) and (min-width: 1168px) and (max-width: 1439px) {
   #s-download-app .download-app-logo-infinity {
-    margin: 4rem 0 0 4rem;
+    margin: 4rem 0 0 4.5rem;
   }
 }
 

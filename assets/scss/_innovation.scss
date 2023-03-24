@@ -129,6 +129,7 @@
             row-gap: 40px;
             column-gap: 80px;
             @include responsive-small-desktop {
+                margin-top: 5rem;
                 column-gap: 20px;
             } 
         }
