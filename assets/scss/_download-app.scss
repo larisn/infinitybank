@@ -12,6 +12,10 @@
         padding: 150px 0 180px 0;
     }
 
+    @include responsive-small-desktop {
+        padding: 150px 0 180px 70px;
+     }
+
     h2 {
         font: 500 2.35rem 'Sora';
         line-height: 35px;
@@ -107,12 +111,19 @@
             position: relative;
             right: 30px;
             top: 30px;
-            background: linear-gradient(200deg, #57123f 0%, #a12476 100%)
+            background: linear-gradient(200deg, #57123f 0%, #a12476 100%);
+            @include responsive-small-desktop {
+                right: 80px;
+                width: 600px;
+            }
         }
         .download-app-logo-infinity {
             display: block;
             margin: 5rem 0 0 4.57rem;
             animation: imgLogo 4s ease infinite;
+            @include responsive-small-desktop {
+                margin: 4rem 0 0 3.5rem;
+             }
         }
     }
 }

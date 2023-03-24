@@ -48,6 +48,12 @@ $bg-secondary: #FDFEFF;
   }
 }
 
+@mixin responsive-small-desktop {
+  @media screen and (min-width: 1168px) and (max-width: 1439px) {
+    @content;
+  }
+}
+
 @mixin responsive-desktop {
   @media screen and (min-width: 1168px) {
     @content;

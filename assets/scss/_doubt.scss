@@ -146,6 +146,11 @@
             top: 364px;
         }
     }
+    @include responsive-small-desktop {
+        width: 250px;
+        right: 22rem;
+        top: 56px;
+    }
 }
 
 

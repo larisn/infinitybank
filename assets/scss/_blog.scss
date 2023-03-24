@@ -30,6 +30,10 @@
             margin-left: 30%;
             margin-top: 2.7rem;
         }
+        @include responsive-small-desktop {
+            width: 60%;
+            margin-left: 22rem;
+         }
     }
     img {
         width: 150px;
@@ -88,4 +92,7 @@
         grid-template-columns: repeat(3, 1fr);
         column-gap: 12rem;
     }
+    @include responsive-small-desktop {
+        padding: 0 50px;
+     }
 }

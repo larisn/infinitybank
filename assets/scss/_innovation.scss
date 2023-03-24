@@ -22,6 +22,9 @@
                 width: 37%;
                 font-size: 2.9rem;
             }
+            @include responsive-small-desktop {
+                margin-left: 30px;
+            }
         }
 
         @include responsive-tablet {
@@ -81,6 +84,9 @@
                     width: 249px;
                     font-size: 1.4rem;
                 }
+                @include responsive-small-desktop {
+                    width: 100%;
+                }
             }
             h5 {
                 padding-top: 0.8rem;
@@ -121,7 +127,7 @@
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(2, 1fr);
             row-gap: 40px;
-            column-gap: 70px;
+            column-gap: 20px;
             
         }
     } 
@@ -132,6 +138,9 @@
             display: block;
             width: 600px;
             margin-bottom: 10.9rem;
+            @include responsive-small-desktop {
+                width: 430px;
+            }
         }
     }
 }

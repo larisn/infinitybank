@@ -5,6 +5,9 @@ header {
     @include responsive-desktop {
         padding-top: 35px; 
     }
+    @include responsive-small-desktop {
+        padding-left: 3rem;
+    }
 }
 
 // Desktop / Tablet
@@ -74,6 +77,9 @@ header {
             color: $color-main;
             background-color: #e7d8e3;
         }
+        @include responsive-small-desktop {
+            padding-right: 3rem;
+        }
         
     }
     img {
@@ -93,6 +99,9 @@ header {
         &:hover {
             text-decoration: none;
         }
+    }
+    @include responsive-small-desktop {
+        padding-right: 3rem;
     }
 }
 

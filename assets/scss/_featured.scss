@@ -1,5 +1,9 @@
 
 #s-featured {
+    @include responsive-small-desktop {
+
+        padding-left: 10rem;
+    }
     .container {
         padding: 64px 32px;
         @include container();
@@ -49,6 +53,13 @@
             width: 750px;
             height: 500px;
             margin-bottom: 11rem;
+            @include responsive-small-desktop {
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                right: -20px;
+                bottom: 30px;
+            }
         }
     }
 }
@@ -220,6 +231,12 @@
         left: 158rem;
         bottom: 18rem;
         width: 70px;
+    }
+    @include responsive-small-desktop {
+        inset: 0;
+        position: absolute;
+        left: 104rem;
+        top: 51.3rem;
     }
 }
 

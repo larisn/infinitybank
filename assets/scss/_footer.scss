@@ -41,5 +41,8 @@ footer {
             color: $color-main;
             font-weight: 600;
         } 
+        @include responsive-small-desktop {
+            padding: 22px 70px 0 70px;
+        }
     }    
 }
