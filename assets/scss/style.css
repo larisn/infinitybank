@@ -1202,13 +1202,19 @@ header {
 }
 
 .container-img-doubt {
-  position: relative;
+  display: none;
 }
-.container-img-doubt img {
-  width: 300px;
-  position: absolute;
-  left: 1100px;
-  top: 364px;
+@media screen and (min-width: 1168px) {
+  .container-img-doubt {
+    display: block;
+    position: relative;
+  }
+  .container-img-doubt img {
+    width: 300px;
+    position: absolute;
+    left: 1100px;
+    top: 364px;
+  }
 }
 
 footer {

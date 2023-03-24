@@ -135,12 +135,16 @@
 }
 
 .container-img-doubt {
-    position: relative;
-    img {
-        width: 300px;
-        position: absolute;
-        left: 1100px;
-        top: 364px;
+    display: none;
+    @include responsive-desktop {
+        display: block;
+        position: relative;
+        img {
+            width: 300px;
+            position: absolute;
+            left: 1100px;
+            top: 364px;
+        }
     }
 }
 
