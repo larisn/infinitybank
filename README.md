@@ -2,6 +2,14 @@
 ♾️<br>InfinityBank
 </h1>
 
+### 🌸 Preview - Modo claro
+
+![Modo claro](https://github.com/larisn/InfinityBank/blob/main/assets/img/Preview%20modo%20claro.png)
+
+### 🌸 Preview - Modo escuro
+
+![Modo escuro](https://github.com/larisn/InfinityBank/blob/main/assets/img/Preview%20modo%20escuro.png)
+
 ## ✨ Sobre
 
 > É um projeto autoral de um banco digital exclusivo para mulheres. A ideia surgiu porque não existe muito disso no mercado, então quis fazer algo diferente.
