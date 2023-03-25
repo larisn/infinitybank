@@ -39,6 +39,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 * Sass
 * JavaScript
 * ScrollReveal
+* Figma
 
 ---
 
