@@ -1535,6 +1535,9 @@ body {
 .dark #s-download-app h2 span:nth-child(2) {
   color: #fff;
 }
+.dark #s-download-app h3 {
+  color: #fff;
+}
 
 .dark #s-blog h3 {
   color: #CD3498;
