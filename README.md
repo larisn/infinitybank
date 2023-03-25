@@ -18,7 +18,7 @@ Aproveitei para utilizar pela primeira vez o Sass, que tem me ajudado muito a de
 <br>
 
 
-## 🌈 Seções
+## 🍥 Seções
 O site é possui por cinco partes:
 
 - **Home:** Nessa parte é uma breve apresentação do site;
