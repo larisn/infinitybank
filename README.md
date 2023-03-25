@@ -27,6 +27,7 @@ O site é possui por cinco partes:
 - **Blog:** Apresenta alguns posts sobre assuntos gerais do mercado financeiro;
 - **App:** É onde instiga o usuário a fazer o download do aplicativo para celular;
 - **FAQ:** Apresenta algumas perguntas frequentes de clientes;
+<br>
 
 ---
 
