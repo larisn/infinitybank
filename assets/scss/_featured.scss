@@ -48,8 +48,8 @@
         .main-img {
             display: block;
             position: absolute;
-            bottom: 70px;
-            right: 100px;
+            top: 20px;
+            left: 75rem;
             width: 750px;
             height: 500px;
             margin-bottom: 11rem;
@@ -61,6 +61,7 @@
 }
 
 .featured-main-page {
+    position: relative;
     @include responsive-desktop {
         display: flex;
         align-items: center;
@@ -224,8 +225,8 @@
     
     @include responsive-desktop {
         position: absolute;
-        left: 158rem;
-        bottom: 18rem;
+        left: 125em;
+        bottom: 3rem;
         width: 70px;
     }
     @include responsive-small-desktop {

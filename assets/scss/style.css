@@ -315,8 +315,8 @@ header {
   #s-featured .main-img {
     display: block;
     position: absolute;
-    bottom: 70px;
-    right: 100px;
+    top: 20px;
+    left: 75rem;
     width: 750px;
     height: 500px;
     margin-bottom: 11rem;
@@ -328,6 +328,9 @@ header {
   }
 }
 
+.featured-main-page {
+  position: relative;
+}
 @media screen and (min-width: 1168px) {
   .featured-main-page {
     display: flex;
@@ -495,8 +498,8 @@ header {
 @media screen and (min-width: 1168px) {
   .flor {
     position: absolute;
-    left: 158rem;
-    bottom: 18rem;
+    left: 125em;
+    bottom: 3rem;
     width: 70px;
   }
 }
