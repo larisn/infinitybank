@@ -324,7 +324,11 @@ header {
 }
 @media screen and (min-width: 1168px) and (min-width: 1168px) and (max-width: 1439px) {
   #s-featured .main-img {
-    display: none;
+    display: block;
+    width: 650px;
+    inset: 0;
+    left: 63rem;
+    top: 2rem;
   }
 }
 
@@ -507,8 +511,9 @@ header {
   .flor {
     inset: 0;
     position: absolute;
-    left: 100rem;
-    top: 56.4rem;
+    left: 106rem;
+    top: 38.5rem;
+    width: 54px;
   }
 }
 
