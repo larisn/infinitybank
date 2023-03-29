@@ -14,7 +14,7 @@
 ### 🌸 Preview - Mobile e Tablet
 <br>
 
-<img src="assets/img/mobile.png" width="210px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="305px">
+<img src="assets/img/mobile.png" width="160px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="233px">
 <br>
 <br>
 
