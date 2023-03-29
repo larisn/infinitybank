@@ -1,14 +1,27 @@
 <h1 align="center">
-♾️<br>InfinityBank
+<img src="assets/img/Logo Infinity Bank.svg"><br>InfinityBank
 </h1>
+<br>
 
-### 🌸 Preview - Modo claro
 
-![Modo claro](https://github.com/larisn/InfinityBank/blob/main/assets/img/Preview%20modo%20claro.png)
+<h3 align="center">
+🌸 Preview - Modo claro e Modo escuro (Desktop)
+</h3>
+<br>
 
-### 🌸 Preview - Modo escuro
+<img src="assets/img/notebook-modo-claro.png" width="380px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/notebook-modo-escuro.png" width="380">
+<br>
+<br>
+<br>
 
-![Modo escuro](https://github.com/larisn/InfinityBank/blob/main/assets/img/Preview%20modo%20escuro.png)
+<h3 align="center">
+🌸 Preview - Mobile e Tablet
+</h3>
+<br>
+
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src="assets/img/mobile.png" width="160px"> &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="233px">
+<br>
+<br>
 
 ## ✨ Sobre
 
