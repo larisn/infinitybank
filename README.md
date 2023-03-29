@@ -3,22 +3,25 @@
 </h1>
 <br>
 
-### 🌸 Preview - Modo claro e Modo escuro (Desktop)
+
+<h3 align="center">
+🌸 Preview - Modo claro e Modo escuro (Desktop)
+</h3>
 <br>
 
-<img src="assets/img/notebook-modo-claro.png" width="380px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/notebook-modo-escuro.png" width="380">
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src="assets/img/notebook-modo-claro.png" width="380px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/notebook-modo-escuro.png" width="380">
 <br>
 <br>
 <br>
 
-### 🌸 Preview - Mobile e Tablet
+<h3 align="center">
+🌸 Preview - Mobile e Tablet
+</h3>
 <br>
 
-<div>
-<img src="assets/img/mobile.png" width="160px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="233px">
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src="assets/img/mobile.png" width="160px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="233px">
 <br>
 <br>
-</div>
 
 ## ✨ Sobre
 
