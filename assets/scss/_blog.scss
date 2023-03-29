@@ -37,10 +37,10 @@
     }
     img {
         width: 150px;
-        margin: 8rem 0 1.6rem 7rem;
+        margin: 8rem 0 1.6rem 10rem;
 
         @include responsive-tablet {
-            margin-left: 40%;
+            margin-left: 37%;
             margin-bottom: 2.3rem;
             width: 200px;
         }
@@ -58,7 +58,7 @@
         @include responsive-tablet {
             font-size: 1.5rem;
             width: 70%;
-            margin-left: 20%;
+            margin-left: 11%;
         }
 
         @include responsive-desktop {
@@ -75,8 +75,8 @@
         @include responsive-tablet {
             padding-top: 9px;
             font-size: 1.7rem;
-            width: 70%;
-            margin-left: 20%;
+            width: 80%;
+            margin-left: 11%;
         }
 
         @include responsive-desktop {
