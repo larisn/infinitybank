@@ -1,8 +1,6 @@
 <h1 align="center">
 <img src="assets/img/Logo Infinity Bank.svg"><br>InfinityBank
 </h1>
-<br>
-
 
 <h3 align="center">
 🌸 Preview - Modo claro (Desktop)
@@ -11,14 +9,12 @@
 ![Modo claro](https://github.com/larisn/InfinityBank/blob/main/assets/img/Preview%20modo%20claro.png)
 <br>
 <br>
-<br>
 
 <h3 align="center">
 🌸 Preview - Modo escuro (Desktop)
 </h3>
 
 ![Modo claro](https://github.com/larisn/InfinityBank/blob/main/assets/img/Preview%20modo%20escuro.png)
-<br>
 <br>
 <br>
 
