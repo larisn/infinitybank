@@ -1,6 +1,6 @@
 
 <h1 align="center">
-<img src="assets/img/Logo Infinity Bank.svg"><br>InfinityBank
+<img src="assets/img/Logo Infinity Bank.svg" width="60px"><br>InfinityBank
 </h1>
 <br>
 
