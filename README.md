@@ -6,7 +6,7 @@
 ### 🌸 Preview - Modo claro e Modo escuro (Desktop)
 <br>
 
-<img src="assets/img/notebook-modo-claro.png" width="400px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/notebook-modo-escuro.png" width="400">
+<img src="assets/img/notebook-modo-claro.png" width="390px"> &ensp; &ensp; &ensp; &ensp; <img src="assets/img/notebook-modo-escuro.png" width="390">
 <br>
 <br>
 <br>
