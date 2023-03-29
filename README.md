@@ -24,7 +24,7 @@
 </h3>
 <br>
 
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src="assets/img/mobile.png" width="160px"> &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="233px">
+&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src="assets/img/mobile.png" width="200px"> &ensp; &ensp; &ensp; <img src="assets/img/tablet.png" width="293px">
 <br>
 <br>
 
