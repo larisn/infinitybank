@@ -1,6 +1,7 @@
 <h1 align="center">
 <img src="assets/img/Logo Infinity Bank.svg"><br>InfinityBank
 </h1>
+<br>
 
 <h3 align="center">
 🌸 Preview - Modo claro (Desktop)
