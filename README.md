@@ -1,3 +1,5 @@
+<br>
+
 <h1 align="center">
 <img src="assets/img/Logo Infinity Bank.svg"><br>InfinityBank
 </h1>
