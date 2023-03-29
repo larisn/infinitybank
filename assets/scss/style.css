@@ -277,6 +277,11 @@ header {
     padding: 18rem 0 17rem 0;
   }
 }
+@media screen and (min-width: 1168px) and (max-width: 1439px) {
+  #s-featured .container {
+    padding: 12rem 0 12rem 0;
+  }
+}
 #s-featured h1 {
   font: 400 3.6rem "Sora";
   margin: 0 34px 20px 0;
@@ -328,7 +333,7 @@ header {
     width: 650px;
     inset: 0;
     left: 63rem;
-    top: 2rem;
+    top: -10px;
   }
 }
 
@@ -454,6 +459,11 @@ header {
     margin-top: 12rem;
   }
 }
+@media screen and (min-width: 1168px) and (max-width: 1439px) {
+  .featured-download-app {
+    margin-top: 6rem;
+  }
+}
 
 @keyframes wind {
   0% {
@@ -512,7 +522,7 @@ header {
     inset: 0;
     position: absolute;
     left: 106rem;
-    top: 38.5rem;
+    top: 35.5rem;
     width: 54px;
   }
 }
