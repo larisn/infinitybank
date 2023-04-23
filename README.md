@@ -33,7 +33,7 @@
 
 > É um projeto autoral de um banco digital exclusivo para mulheres. A ideia surgiu porque não existe muito disso no mercado, então quis fazer algo diferente.
 Esse projeto será utilizado no meu portfólio por isso tentei caprichar um pouco mais nos detalhes, criando uma instituição bancária e sua identidade visual, algumas animações, menu hambúrguer, accordion, modo escuro e ele também está 100% responsivo.<br>
-Aproveitei para utilizar pela primeira vez o Sass, que tem me ajudado muito a deixar o código mais limpo e otimizar o meu tempo.
+Nesse trabalho eu quis desenvolver uma interface moderna e aproveitei para utilizar pela primeira vez o Sass, que me ajudou a deixar o código mais limpo, otimizar meu tempo.
 <br>
 
 
