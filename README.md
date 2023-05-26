@@ -38,7 +38,7 @@ Nesse trabalho eu quis desenvolver uma interface moderna e aproveitei para utili
 
 
 ## 🍥 Seções
-O site é possui por cinco partes:
+O site é possui cinco partes:
 
 - **Home:** Nessa parte é uma breve apresentação do site;
 - **Inovação:** Mostra algumas vantagens de abrir a conta;
